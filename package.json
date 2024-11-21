@@ -1,15 +1,17 @@
 {
   "originalAuthor": "Mark Cavage <mcavage@gmail.com>",
-  "name": "ldapjs",
+  "name": "@mbakereth/ldapjs",
+  "private": false,
   "homepage": "http://ldapjs.org",
   "description": "LDAP client and server APIs",
-  "version": "3.0.7",
+  "version": "3.0.11",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ldapjs/node-ldapjs.git"
+    "url": "git@github.com:mbakereth/node-ldapjs.git"
   },
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "dependencies": {
     "@ldapjs/asn1": "^2.0.0",
     "@ldapjs/attribute": "^1.0.0",
