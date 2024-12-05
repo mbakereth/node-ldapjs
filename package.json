@@ -4,7 +4,7 @@
   "private": false,
   "homepage": "http://ldapjs.org",
   "description": "LDAP client and server APIs",
-  "version": "3.0.12",
+  "version": "3.0.13",
   "license": "MIT",
   "repository": {
     "type": "git",
