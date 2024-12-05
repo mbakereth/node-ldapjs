@@ -6,11 +6,11 @@ const tap = require('tap')
 const vasync = require('vasync')
 const getPort = require('get-port')
 const { getSock, uuid } = require('./utils')
-const Attribute = require('@ldapjs/attribute')
-const Change = require('@ldapjs/change')
-const messages = require('@ldapjs/messages')
-const controls = require('@ldapjs/controls')
-const dn = require('@ldapjs/dn')
+const Attribute = require('@mbakereth/ldap-attribute')
+const Change = require('@mbakereth/ldap-change')
+const messages = require('@mbakereth/ldap-messages')
+const controls = require('@mbakereth/ldap-controls')
+const dn = require('@mbakereth/ldap-dn')
 const ldap = require('../lib')
 
 const {
@@ -522,7 +522,7 @@ tap.test('add success with object', function (t) {
 })
 
 tap.test('add buffer', function (t) {
-  const { BerReader } = require('@ldapjs/asn1')
+  const { BerReader } = require('@mbakereth/ldap-asn1')
   const dn = `cn=add,${SUFFIX}`
   const attribute = 'thumbnailPhoto'
   const binary = 0xa5

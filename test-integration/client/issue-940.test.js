@@ -2,7 +2,7 @@
 
 const tap = require('tap')
 const ldapjs = require('../../lib')
-const Change = require('@ldapjs/change')
+const Change = require('@mbakereth/ldap-change')
 
 const SCHEME = process.env.SCHEME || 'ldap'
 const HOST = process.env.HOST || '127.0.0.1'

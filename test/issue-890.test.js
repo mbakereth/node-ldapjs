@@ -8,7 +8,7 @@
 
 const tap = require('tap')
 const ldapjs = require('../')
-const { SearchResultEntry } = require('@ldapjs/messages')
+const { SearchResultEntry } = require('@mbakereth/ldap-messages')
 const server = ldapjs.createServer()
 const SUFFIX = ''
 

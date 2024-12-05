@@ -2,8 +2,8 @@
 
 const tap = require('tap')
 const { getSock, uuid } = require('./utils')
-const { SearchResultEntry } = require('@ldapjs/messages')
-const Attribute = require('@ldapjs/attribute')
+const { SearchResultEntry } = require('@mbakereth/ldap-messages')
+const Attribute = require('@mbakereth/ldap-attribute')
 const ldap = require('../lib')
 
 function search (t, options, callback) {

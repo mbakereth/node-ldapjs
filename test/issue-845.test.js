@@ -1,7 +1,7 @@
 'use strict'
 
 const tap = require('tap')
-const { SearchResultEntry, SearchRequest } = require('@ldapjs/messages')
+const { SearchResultEntry, SearchRequest } = require('@mbakereth/ldap-messages')
 const ldapjs = require('../')
 
 const server = ldapjs.createServer()
